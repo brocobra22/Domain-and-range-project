@@ -33,3 +33,14 @@ body{
         transform: translate(300px,0px);
     }
 }
+#p1tag{
+    font-size: x-large;
+    text-align: center;
+    color:wheat;
+}
+#aoffunction{
+    color: rgb(204, 253, 255); 
+}
+#definitionforfunction{
+    display: none;
+}
