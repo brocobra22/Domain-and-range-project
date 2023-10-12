@@ -4,6 +4,8 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     color: rgb(220, 220, 220);
+    backdrop-filter: blur(15px);
+    margin: 0%;
 }
 #p3tag{
     background-color: rgb(98, 98, 98);
@@ -43,4 +45,21 @@ body{
 }
 #definitionforfunction{
     display: none;
+    background-color: rgb(64, 64, 64);
+    border-radius: 30px;
+}
+#inputtext{
+    border: 2px solid rgb(107, 107, 107);
+    background-color: transparent;
+    align-items: center;
+} 
+#inputtext:active {
+    border-bottom: 2px solid rgb(214, 1, 1);
+    animation-name: changecolor;
+    animation-duration: 3s ;
+}
+@keyframes changecolor{
+    0%{
+        color: rgb(255, 5, 5);
+    }
 }
