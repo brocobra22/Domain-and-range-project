@@ -63,3 +63,75 @@ body{
         color: rgb(255, 5, 5);
     }
 }
+#aoffunction{
+    position: relative;
+    display: inline-block;
+}
+#aoffunction::before{
+  content: attr(data-tooltip);
+  position: absolute;
+  top: -60px; /* Adjust as needed to position the tooltip */
+  left: 0;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 14px;
+  font-size: 14px;
+  z-index: 1;
+  opacity: 0;
+  visibility: hidden;
+  width: 200px;
+}
+#aoffunction:hover::before{
+    opacity: 1;
+    visibility: visible;
+    color: rgb(204, 253, 255);
+}
+#aofrelation{
+    position: relative ;
+    display: inline-block;
+    color: rgb(204, 253, 255);;
+}
+#aofrelation::before{
+    content: attr(data-tooltip);
+    position: absolute;
+    top: -65px;
+    left: 0;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    z-index: 1;
+    border-radius: 14px;
+    opacity: 0;
+    visibility: hidden;
+    width: 200px;
+    font-size: 14px;
+}
+#aofrelation:hover::before{
+    opacity: 1;
+    visibility: visible;
+}
+#aofphysicalconstraints{
+    display: inline-block;
+    position: relative;
+    color: rgb(204, 253, 255);
+}
+#aofphysicalconstraints::before{
+    content: attr(data-tooltip);
+    top: -22px;
+    left: 0;
+    background-color: #333;
+    color: #fff;
+    border-radius: 14px;
+    padding: 10px 20px;
+    font-size: 14px;
+    z-index: 1;
+    visibility: hidden;
+    width: 200px;
+    position: absolute;
+    opacity: 0;
+}
+#aofphysicalconstraints:hover::before{
+   opacity: 1;
+   visibility: visible;
+}
