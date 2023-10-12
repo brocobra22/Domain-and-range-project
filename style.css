@@ -118,17 +118,22 @@ body{
 }
 #aofphysicalconstraints::before{
     content: attr(data-tooltip);
-    top: 20px;
-    left:0;
     padding: 10px 20px;
-    visibility: hidden;
-    border-radius: 14px;
+    top: -65px;
+    left: 10px;
     background-color: #333;
-    color:#fff ;
+    color:#fff;
+    font-size: 14px;
     opacity: 0;
     z-index: 1;
-    font-size: 14px;
     width: 200px;
+    position: absolute;
+    border-radius: 14px;
+    visibility: hidden;
+}
+#aofphysicalconstraints:hover::before{
+    visibility: visible;
+    opacity: 1;
 }
 #aofset{
     position: relative;
