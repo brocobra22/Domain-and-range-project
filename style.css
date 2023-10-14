@@ -13,12 +13,12 @@ body{
     border-radius: 25px;
     color: rgb(204, 253, 255);
     text-align: center;
-    animation-duration: 2s;
+    animation-duration: 3s;
     animation-name: slideleft;
 }
 @keyframes slideleft{
     0%{
-        transform: translate(300px,0px);
+        transform: translate(0px,300px);
     }
 }
 #p5tag{
@@ -27,12 +27,12 @@ body{
     border-radius: 25px;
     color: rgb(204, 253, 255);
     text-align: center;
-    animation-duration:2s;
+    animation-duration:3s;
     animation-name: slideleft;
 }
 @keyframes slideleft{
     0%{
-        transform: translate(300px,0px);
+        transform: translate(0px,300px);
     }
 }
 #p1tag{
@@ -147,18 +147,44 @@ body{
     margin-top: 0%;
     margin-bottom: 0%;
     font-size: 100px;
+    font-family:cursive;
     animation-name: uptodown;
-    animation-duration: 5s;
+    animation-duration: 3s;
 }
 @keyframes uptodown{
      0%{
         transform: translateY(-200px);
         
      }
-     50%{
-        text-shadow: 3px 3px 4px orange ;
-     }
-     100%{
-        text-shadow: 2px 2px 3px transparent;
-     }
-     }
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    gap: 260px;
+    text-align: center;
+    color: #8e8e8e;
+    padding-top:15px;
+    margin-top: 20px;
+    border-top: 2px #696969 solid;
+    list-style: none;
+}
+#aboutus{
+    color: #8e8e8e;
+    text-decoration: none;
+    padding:15.8px;
+}
+#contact{
+    color: #8e8e8e;
+    text-decoration: none;
+    padding:15.8px;
+}
+#content{
+    color: #8e8e8e;
+    text-decoration: none;
+    padding:15.8px;
+}
+#questions{
+    color: #8e8e8e;
+    text-decoration: none;
+    padding:15.8px;
+}
