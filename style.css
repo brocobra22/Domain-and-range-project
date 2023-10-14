@@ -1,10 +1,10 @@
 body{
     font-family: 'Kanit', sans-serif;
-    background-image:url(images/coolback.avif);
+    background-image:url(images/mathimage.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: rgb(220, 220, 220);
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(10px);
     margin: 0%;
 }
 #p3tag{
@@ -27,7 +27,7 @@ body{
     border-radius: 25px;
     color: rgb(204, 253, 255);
     text-align: center;
-    animation-duration:4s;
+    animation-duration:2s;
     animation-name: slideleft;
 }
 @keyframes slideleft{
@@ -56,7 +56,7 @@ body{
 #inputtext:active {
     border-bottom: 2px solid rgb(214, 1, 1);
     animation-name: changecolor;
-    animation-duration: 3s ;
+    animation-duration: 45s ;
 }
 @keyframes changecolor{
     0%{
@@ -140,3 +140,25 @@ body{
     display: inline-block;
     
 }
+#h1tag{
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-size: 100px;
+    animation-name: uptodown;
+    animation-duration: 5s;
+}
+@keyframes uptodown{
+     0%{
+        transform: translateY(-200px);
+        
+     }
+     50%{
+        text-shadow: 3px 3px 4px orange ;
+     }
+     100%{
+        text-shadow: 2px 2px 3px transparent;
+     }
+     }
