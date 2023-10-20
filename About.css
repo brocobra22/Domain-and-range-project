@@ -1,0 +1,108 @@
+body{
+    background-image:url(images/mathimage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(10px);
+    color: rgb(220, 220, 220);
+    margin: 0%;
+    padding: 40px;
+    background-position: center;
+}
+#h4cp{
+    
+    font-family: Tilt Neon;
+    font-size: 50px;
+    color: rgba(255, 0, 0, 0.68);
+    animation-name: abslide;
+    animation-duration: 3s;
+    margin-top: 100px;
+    float: right;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+@keyframes abslide{
+    0%{
+        transform: translateX(-70px);
+    }
+}
+#audiv1{
+    height: 20px;
+    width: 500px;
+    border-radius: 40px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 300px;
+    background-color: grey;
+    position: relative;
+    float: right;
+    margin-left: 350px;
+    margin-top: -5.58px;
+}
+#h4pa{
+    font-family: Tilt Neon;
+    font-size: 50px;
+    color: rgba(255, 0, 0, 0.68);
+    animation-name: abslide;
+    animation-duration: 3s;
+    margin-top: 100px; 
+    display: flex;
+    flex-direction: row;
+}
+#audiv2{
+    height: 20px;
+    width: 500px;
+    border-radius: 40px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 300px;
+    background-color: grey;
+    position: relative;
+    margin-top: -40px;
+    margin-bottom: 30px;
+}
+#h4te{
+    font-family: Tilt Neon;
+    font-size: 50px;
+    color: rgba(255, 0, 0, 0.68);
+    animation-name: abslide;
+    animation-duration: 3s;
+    margin-top: 100px; 
+}
+#audiv3{
+    height: 20px;
+    width: 500px;
+    padding-top: 50px;
+    padding-left: 20px;
+    border-radius: 40px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 300px;
+    background-color: grey;
+    margin-bottom: 40px;
+    position: relative;
+}
+#h4ch{
+    font-family: Tilt Neon;
+    font-size: 50px;
+    color: rgba(255, 0, 0, 0.68);
+    animation-name: abslide;
+    animation-duration: 3s;
+    margin-top: 100px; 
+}
+#audiv4{
+    height: 20px;
+    width: 500px;
+    padding-top: 50px;
+    padding-left: 20px;
+    border-radius: 40px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 300px;
+    background-color: grey;
+    margin-bottom: 40px;
+    position: relative;
+}
